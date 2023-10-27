@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .logo h2{
+    font-size: 28px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 0px 15px;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+header nav ul li a:hover{
+    color: #ffc107;
+}
+
+header nav ul li a.active{
+    color: #ffc107;
+}
+
+.head-content{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.head-content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.head-content p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.head-content button{
+    background: #fff;
+    border: none;
+    color: #333;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+button:hover{
+    color: #fff;
+    background: #777;
+}
+
+.feature-product{
+    background: #f6f6f6;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.feature-product h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    height: 400px;
+    width: 320px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: 0px 0px 10px rgba(0,0,0,0.2);
+    transition: 0.4s ease;
+}
+
+.product:hover{
+    transform: translateY(-5px);
+}
+
+.product img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product h3{
+    margin: 0px;
+    font-size: 24px;
+    color: #333;
+}
+
+.product p{
+    margin: 10px 0px;
+    font-size: 20px;
+    color: #f58634;
+}
+
+.product button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #f58634;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.product button:hover{
+    background-color: #e67629;
+}
+
+.About{
+    background-color: #ddd;
+    padding: 50px 0px;
+}
+
+.About h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.About p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.About button{
+    padding: 15px 30px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.About button:hover{
+    color: #fff;
+    background: #777;
+}
+
+.Contact{
+    padding: 100px 0px;
+    background-color: #f8f8f8;
+}
+
+.Contact h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Contact form{
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.Contact label{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.Contact input[type="text"],
+.Contact input[type="email"],
+.Contact textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.Contact input[type="submit"]{
+    background-color: #ffc107;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 22px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.Contact input[type="submit"]:hover{
+    background-color: #ff9800;
+}
+
+footer{
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer nav{
+    margin-top: 20px;
+}
+
+footer a{
+    color: teal;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
