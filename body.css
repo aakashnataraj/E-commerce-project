@@ -20,6 +20,7 @@ header{
     padding: 20px 0px;
 }
 
+
 header nav{
     display: flex;
     align-items: center;
@@ -28,6 +29,11 @@ header nav{
 
 header nav .logo h2{
     font-size: 28px;
+}
+
+span{
+    color: #ffc107;
+    font-style: italic;
 }
 
 header nav ul{
@@ -88,6 +94,24 @@ button:hover{
     background: #777;
 }
 
+.checkbtn{
+    color: #fff;
+    font-size: 25px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+
+
+
 .feature-product{
     background: #f6f6f6;
     padding: 50px 0px;
@@ -98,6 +122,7 @@ button:hover{
     font-size: 36px;
     text-align: center;
     margin-bottom: 50px;
+    color: teal;
 }
 
 .product-container{
@@ -153,6 +178,12 @@ button:hover{
     background-color: #e67629;
 }
 
+
+
+
+
+
+
 .About{
     background-color: #ddd;
     padding: 50px 0px;
@@ -162,6 +193,7 @@ button:hover{
     font-size: 36px;
     text-align: center;
     margin-bottom: 50px;
+    color: teal;
 }
 
 .About p{
@@ -187,6 +219,12 @@ button:hover{
     background: #777;
 }
 
+
+
+
+
+
+
 .Contact{
     padding: 100px 0px;
     background-color: #f8f8f8;
@@ -196,6 +234,7 @@ button:hover{
     font-size: 36px;
     text-align: center;
     margin-bottom: 50px;
+    color: teal;
 }
 
 .Contact form{
@@ -238,6 +277,12 @@ button:hover{
     background-color: #ff9800;
 }
 
+
+
+
+
+
+
 footer{
     text-align: center;
     background-color: #222;
@@ -264,3 +309,91 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+
+@media (max-width:952px){
+   header{
+     font-size: 18px;
+     padding: 0px 50px;
+   }
+
+   nav .logo h2{
+    font-size: 16px;
+    margin-top: 20px;
+   }
+
+   nav ul li{
+    font-size: 15px;
+    display: none;
+   }
+}
+
+@media (max-width:952px){
+    .checkbtn{
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+
+    .head-content{
+        font-size: 20px;
+    }
+
+    .head-content h1{
+        font-size: 20px;
+    }
+
+    .head-content p{
+        font-size: 13px;
+        max-width: 650px;
+    }
+    
+
+    .logo h2{
+        margin-left: -10px;
+    }
+
+    .head-content button{
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .feature-product h2{
+        font-size: 28px;
+    }
+
+    .About h2{
+        font-size: 25px;
+    }
+
+    .About button{
+        margin-left: 25%;
+        padding: 10px;
+    }
+
+    .Contact h2{
+        font-size: 25px;
+    }
+
+    form input{
+           max-width: 400px;
+    }
+
+    form textarea{
+        max-width: 400px;
+    }
+
+    form label{
+        margin-left: -60%;
+    }
+
+    .container p{
+        font-size: 15px;
+    }
+
+    .container nav a{
+        display: block;
+        padding: 10px;
+    }
+}
+
