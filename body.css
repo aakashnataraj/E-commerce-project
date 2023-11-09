@@ -109,7 +109,7 @@ button:hover{
 
 
 
-
+/**** Feature Product *****/
 
 
 .feature-product{
@@ -178,11 +178,10 @@ button:hover{
     background-color: #e67629;
 }
 
+/**** Feature product ****/
 
 
-
-
-
+/****About ****/
 
 .About{
     background-color: #ddd;
@@ -220,8 +219,10 @@ button:hover{
 }
 
 
+/**** about ****/
 
 
+/**** Contact ****/
 
 
 
@@ -278,10 +279,10 @@ button:hover{
 }
 
 
+/**** Contact ****/
 
 
-
-
+/**** footer ****/
 
 footer{
     text-align: center;
@@ -310,6 +311,10 @@ footer a:hover{
     text-decoration: underline;
 }
 
+/**** Footer ***/
+
+
+/*** Responsive Design ***/
 
 @media (max-width:952px){
    header{
@@ -320,6 +325,7 @@ footer a:hover{
    nav .logo h2{
     font-size: 16px;
     margin-top: 20px;
+    margin-left: -30px;
    }
 
    nav ul li{
@@ -328,11 +334,13 @@ footer a:hover{
    }
 }
 
+
 @media (max-width:952px){
     .checkbtn{
         display: block;
         position: relative;
         top: 20px;
+        left: 20px;
     }
 
     .head-content{
